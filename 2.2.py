@@ -54,6 +54,7 @@ print(url.startswith(tuple(choices)))
 
 """
 NOTE: You might also be inclined to use regular expressions as an alternative. For example:
+but its an overkill for simple problem
 """
 print(bool(re.match('http:|https:|ftp:', url)))
 
