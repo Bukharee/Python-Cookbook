@@ -75,5 +75,5 @@ for month, day, year in datepat.findall(text):
 the following:
 """
 datepat = re.compile(r'(\d+)/(\d+)/(\d+)$')
-m = datepat.match('11/27/2012abcdef')
-print(m)
+m = datepat.match('11/27/2012')
+print(m.groups())
